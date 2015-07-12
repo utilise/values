@@ -1,6 +1,6 @@
 var keys = require('keys')
-  , base = require('base')
+  , from = require('from')
 
 module.exports = function values(o) {
-  return !o ? [] : keys(o).map(base(o))
+  return !o ? [] : keys(o).map(from(o))
 }

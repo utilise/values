@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "base": "git+https://github.com/utilise/base.git",
+    "from": "git+https://github.com/utilise/from.git",
     "keys": "git+https://github.com/utilise/keys.git"
   }
 }

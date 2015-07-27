@@ -1,5 +1,5 @@
 {
-  "name": "values",
+  "name": "utilise.values",
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,7 @@
     "mocha-lcov-reporter": "0.0.2"
   },
   "dependencies": {
-    "base": "git+https://github.com/utilise/base.git",
-    "from": "git+https://github.com/utilise/from.git",
-    "keys": "git+https://github.com/utilise/keys.git"
+    "utilise.from": "*",
+    "utilise.keys": "*"
   }
 }
